@@ -1,0 +1,350 @@
+@font-face {
+  font-family: nixie;
+  src: url(../assets/fonts/NixieOne-Regular.ttf);
+}
+@font-face {
+  font-family: alegreya;
+  src: url(../assets/fonts/AlegreyaSans-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+/* Global Custom */
+
+.viewall {
+  background-color: transparent;
+  padding: 12px 16px;
+  font-size: 18px;
+  font-family: Helvetica;
+}
+
+h2 {
+  font-family: Alegreya;
+  font-size: 36px;
+  font-weight: lighter;
+  padding-bottom: 15px;
+}
+h3 {
+  font-family: Alegreya;
+  font-size: 30px;
+}
+
+/* Header Custom */
+
+header {
+  background: url(../assets/img/divheader.png) no-repeat center;
+  background-size: cover;
+  height: 100vh;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 30px 0 30px;
+}
+nav a {
+  text-decoration: none;
+  font-family: alegreya;
+  font-size: 36px;
+  color: white;
+}
+header section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 74.3vh;
+  row-gap: 14px;
+  color: white;
+}
+h1 {
+  font-family: nixie;
+  font-size: 56px;
+  font-weight: lighter;
+}
+header section p {
+  font-family: alegreya;
+  font-size: 22.4;
+  opacity: 50%;
+}
+
+/* Latest Work Custom */
+
+.container_1 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 60.938vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.container_1 p {
+  font-family: Helvetica;
+  font-size: 14px;
+  color: #6a6a6a;
+}
+.caption {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 60px;
+}
+.gallery {
+  margin: 60px 15px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.gallery img {
+  width: 18.75vw;
+  height: 21.4vh;
+  float: left;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* Our Service Custom */
+
+.ourservice {
+  height: 54.2vh;
+  background: url(../assets/img/divservices.png) no-repeat center;
+  background-size: cover;
+  display: flex;
+}
+.container_2 {
+  display: flex;
+  background-color: rgb(0, 0, 0, 0.2);
+  margin: auto;
+  width: 60.938vw;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 80px 135px;
+  color: white;
+}
+
+.services {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  margin-top: 60px;
+}
+.block {
+  width: 18.75vw;
+  height: 18.8vh;
+  color: white;
+  text-align: center;
+}
+.block h3 {
+  font-weight: lighter;
+}
+.block p {
+  font-family: helvetica;
+  font-size: 14px;
+  line-height: 20px;
+  padding-top: 16px;
+}
+
+/* From The Blog Custom */
+
+.container_3 {
+  margin: 0 auto;
+  width: 60.938vw;
+  display: flex;
+  flex-direction: column;
+  height: 81.7vh;
+}
+
+/* *IMG Custom */
+.chair {
+  width: 18.75vw;
+  height: 23vh;
+}
+.table {
+  width: 18.75vw;
+  height: 27vh;
+}
+.shelf {
+  width: 18.75vw;
+  height: 36vh;
+}
+.wraperblog {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.container_3 article {
+  display: flex;
+  flex-direction: column;
+  width: 19vw;
+}
+.container_3 article h3 {
+  padding-top: 18px;
+  padding-bottom: 16px;
+  font-weight: normal;
+}
+.container_3 article p {
+  padding-bottom: 19px;
+}
+.readmore {
+  text-decoration: none;
+  color: lightblue;
+}
+
+/* container 4 Custom */
+
+.container_4 {
+  background-image: url(../assets/img/divparallax.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 18.75vw;
+}
+.container_4 div {
+  background-color: rgb(0, 0, 0, 0.2);
+  width: 60.938vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 80px;
+  margin-top: 80px;
+}
+.container_4 h2 {
+  padding: 19px 15px 60px 15px;
+  color: white;
+}
+.container_4 button {
+  background-color: transparent;
+  padding: 12px 16px;
+  font-size: 18px;
+  font-family: Helvetica;
+  color: white;
+}
+
+/* testimolnial custom */
+
+.testimonial {
+  height: 60.9vh;
+}
+.testimonial p {
+  font-family: helvetica;
+}
+
+.container_5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 80px 135px;
+  color: #6a6a6a;
+}
+
+.testi {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-top: 60px;
+  width: 18.49vw;
+  height: 36vh;
+}
+.wraptesti {
+  display: flex;
+  flex-direction: row;
+  gap: 4vh;
+}
+.testi img {
+  height: 15vh;
+  width: 7.813vw;
+}
+
+/* Contact Us Custom */
+
+.contactus {
+  height: 60.6vh;
+  background: url(../assets/img/divcontact.png) no-repeat center;
+  background-size: cover;
+  display: flex;
+  color: white;
+}
+.contactus h2 {
+  padding-top: 20px;
+}
+.contactus p {
+  padding-bottom: 60px;
+}
+.container_6 {
+  background-color: rgb(0, 0, 0, 0.2);
+  width: 60.938vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 60px;
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 28.906vw;
+}
+input[type="text"] {
+  margin-bottom: 9px;
+  padding-left: 10px;
+  background-color: transparent;
+  height: 3.4vh;
+  border: solid white 1px;
+  border-radius: 10px;
+  width: 28.906vw;
+}
+input[type="email"] {
+  margin-bottom: 9px;
+  padding-left: 10px;
+  background-color: transparent;
+  height: 3.4vh;
+  border: solid white 1px;
+  border-radius: 10px;
+  width: 28.906vw;
+}
+input::placeholder {
+  color: white;
+}
+textarea::placeholder {
+  color: white;
+}
+textarea {
+  margin-bottom: 15px;
+  background-color: transparent;
+  padding-top: 3px;
+  padding-left: 10px;
+  border: solid white 1px;
+  border-radius: 10px;
+  width: 28.906vw;
+}
+input[type="submit"] {
+  color: white;
+  background-color: transparent;
+  border: solid white 1px;
+  padding: 15px;
+  width: 10vw;
+}
+
+/* Footer Custom */
+
+footer {
+  height: 14vh;
+  background-color: #2b3e51;
+  color: white;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  padding-left: 7.813vw;
+}
